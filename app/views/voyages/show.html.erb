@@ -1,0 +1,41 @@
+
+  <div class="jumbotron">
+    <h1 class="display-3">E-Travel</h1>
+    <p class="lead">Résérvation pour le voyage:</p><p id="notice"><%= notice %></p>
+
+
+    
+
+    <p>
+      <strong>Destination:</strong>
+      <%= @voyage.destination %>
+    </p>
+
+    <p>
+      <strong>Depart:</strong>
+      <%= @voyage.depart %>
+    </p>
+
+    <p>
+      <strong>Date depart:</strong>
+      <%= @voyage.date_depart %>
+    </p>
+
+    <p>
+      <strong>Place Disponible:</strong>
+      <%= @voyage.place %>
+    </p>
+
+
+
+
+    <p class="lead">
+      <%= link_to 'Edit', edit_voyage_path(@voyage), class: "btn btn-success btn-lg" %> | <%= link_to 'Back', voyages_path, class: "btn btn-info btn-lg" %>
+    </p>
+
+    <hr>
+
+    <p>
+          <%= @reservation.user.email %>
+    </p>
+  </div>
