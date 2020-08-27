@@ -1,0 +1,40 @@
+.slisar{
+	width: 700px;
+	height: 500px;
+}
+.cart{
+	width: 270px;
+	height: 180px;
+}
+
+
+.maj{
+	width: 100px;
+	height: 100px;
+	background-image: url(img/Carte/majunga.png);
+}
+.tan{
+	width: 100px;
+	height: 100px;
+	background-image: url(img/Carte/tana.png);
+}
+.ant{
+	width: 100px;
+	height: 100px;
+	background-image: url(img/Carte/antsiranana.png);
+}
+.tul{
+	width: 100px;
+	height: 100px;
+	background-image: url(img/Carte/tulear.png);
+}
+.fia{
+	width: 100px;
+	height: 100px;
+	background-image: url(img/Carte/fianaratsoa.png);
+}
+.tam{
+	width: 100px;
+	height: 100px;
+	background-image: url(img/Carte/toamasina.png);
+}
